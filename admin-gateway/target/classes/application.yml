@@ -1,0 +1,17 @@
+server:
+  port: 10010
+
+spring:
+  application:
+    name: admin-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10088/eureka
+    registry-fetch-interval-seconds: 5
+
+zuul:
+  prefix: /api
+  routes:
+

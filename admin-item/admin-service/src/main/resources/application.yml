@@ -1,0 +1,20 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: admin-service
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql:///hadmin
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 10
+  instance:
+    lease-expiration-duration-in-seconds: 15
+    lease-renewal-interval-in-seconds: 10
+
+mybatis:
+  type-aliases-package: com.mirac.item.pojo
