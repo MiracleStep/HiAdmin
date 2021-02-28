@@ -15,7 +15,7 @@ public class Images {
     @Column(name = "orderby")
     private int orderby;
     @Column(name = "is_comment")
-    private int isComment;
+    private String isComment;
     private String releasetime;
     private String deletetime;
     private String author;
@@ -24,24 +24,6 @@ public class Images {
     private String abstractText;
     private String imgUrl;
 
-    @Override
-    public String toString() {
-        return "Images{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                ", subtitle='" + subtitle + '\'' +
-                ", category=" + category +
-                ", orderby=" + orderby +
-                ", isComment=" + isComment +
-                ", releasetime='" + releasetime + '\'' +
-                ", deletetime='" + deletetime + '\'' +
-                ", author='" + author + '\'' +
-                ", dataFrom='" + dataFrom + '\'' +
-                ", keyword='" + keyword + '\'' +
-                ", abstractText='" + abstractText + '\'' +
-                ", imgUrl='" + imgUrl + '\'' +
-                '}';
-    }
 
     public Long getId() {
         return id;
@@ -83,11 +65,11 @@ public class Images {
         this.orderby = orderby;
     }
 
-    public int getIsComment() {
+    public String getIsComment() {
         return isComment;
     }
 
-    public void setIsComment(int isComment) {
+    public void setIsComment(String isComment) {
         this.isComment = isComment;
     }
 

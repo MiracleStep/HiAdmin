@@ -33,9 +33,7 @@ public class NewsService {
 
         PageInfo<News> pageInfo = new PageInfo<>(news);
 
-        System.out.println(pageInfo.getList());
-        System.out.println(pageInfo.getPages());
-        System.out.println(pageInfo.getTotal());
+
         return new PageResult<News>(pageInfo.getTotal(),pageInfo.getPages(),pageInfo.getList());
 
 
