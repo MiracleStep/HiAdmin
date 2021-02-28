@@ -12,7 +12,8 @@
         <module>admin-registry</module>
         <module>admin-gateway</module>
         <module>admin-item</module>
-        <module>admin-interface</module>
+        <module>admin-upload</module>
+        <module>admin-web</module>
     </modules>
 
     <properties>

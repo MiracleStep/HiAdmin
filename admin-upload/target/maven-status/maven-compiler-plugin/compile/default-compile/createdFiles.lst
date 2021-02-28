@@ -1,0 +1,4 @@
+com\mirac\upload\controller\UploadController.class
+com\mirac\AdminUploadApplication.class
+com\mirac\upload\config\AdminCorsFilter.class
+com\mirac\upload\service\UploadService.class

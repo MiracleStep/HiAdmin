@@ -1,0 +1,10 @@
+com\mirac\item\mapper\ZtreeMapper.class
+com\mirac\item\controller\ImagesController.class
+com\mirac\item\mapper\ImagesMapper.class
+com\mirac\item\mapper\NewsMapper.class
+com\mirac\AdminServiceApplication.class
+com\mirac\item\controller\CategoryController.class
+com\mirac\item\service\CategoryService.class
+com\mirac\item\service\NewsService.class
+com\mirac\item\service\ImagesService.class
+com\mirac\item\controller\NewsController.class

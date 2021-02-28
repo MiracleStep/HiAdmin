@@ -1,0 +1,7 @@
+com\mirac\item\client\NewsCLient.class
+com\mirac\AdminWebApplication.class
+com\mirac\item\client\ImagesClient.class
+com\mirac\item\controller\CategoryListController.class
+com\mirac\item\controller\InfoController.class
+com\mirac\item\service\InfoService.class
+com\mirac\item\client\CategoryClient.class

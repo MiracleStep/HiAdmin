@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="admin-registry" />
+        <module name="admin-web" />
         <module name="admin-interface" />
         <module name="admin-gateway" />
         <module name="admin-service" />
+        <module name="admin-upload" />
       </profile>
     </annotationProcessing>
   </component>
@@ -20,6 +22,8 @@
       <module name="admin-item" options="-parameters" />
       <module name="admin-registry" options="-parameters" />
       <module name="admin-service" options="-parameters" />
+      <module name="admin-upload" options="-parameters" />
+      <module name="admin-web" options="-parameters" />
     </option>
   </component>
 </project>

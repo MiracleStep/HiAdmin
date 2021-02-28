@@ -13,9 +13,10 @@ public class AdminCorsFilter {
     @Bean
     public CorsFilter corsFilter(){
         CorsConfiguration corsConfiguration = new CorsConfiguration();
-//        corsConfiguration.addAllowedOrigin();
+        corsConfiguration.addAllowedOrigin("http://www.hiadmin.com");
+        corsConfiguration.addAllowedOrigin("chrome-extension://cgpnoendcibcgokcokfgcklbemlcbgih");
         corsConfiguration.setAllowCredentials(true);
-        corsConfiguration.addExposedHeader("*");
+        corsConfiguration.addAllowedHeader("*");
         corsConfiguration.addAllowedMethod("*");
         UrlBasedCorsConfigurationSource configurationSource = new UrlBasedCorsConfigurationSource();
         configurationSource.registerCorsConfiguration("/**",corsConfiguration);

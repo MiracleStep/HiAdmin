@@ -8,10 +8,10 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:10088/eureka
+      defaultZone: http://localhost:10086/eureka
     registry-fetch-interval-seconds: 5
 
 zuul:
   prefix: /api
   routes:
-
+    admin-service: /item/**
